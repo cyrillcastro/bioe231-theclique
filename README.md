@@ -8,5 +8,4 @@ The following RefSeq IDs correspond to the following strains:
 - GCF_000865725.1: H1N1 (1934)
 - GCF_000865085.1: H3N2
 
-Assembly viewing:
-http://localhost:8080/jbrowse2/?session=share-X1WXYCk1q-&password=y2Oxd
+Assembly viewing: http://localhost:8080/jbrowse2/?session=share-oOTqrw2sij&password=Vcz1l
