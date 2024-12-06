@@ -1,9 +1,13 @@
 # bioe231-theclique
 BioE 231 The Clique Final Project
 
-This is the JBrowse configuration for viewing data related to influenza, specifically the H1N1 and H3N2 strains. In order to set up the database properly, you must have a unix system setup. 
-
-Once your unix system is set up, download linuxbrew (or homebrew if you are using MacOS).
+This is the JBrowse configuration for viewing data related to influenza, specifically the H1N1 and H3N2 strains. In order to set up the database properly, make sure you are using a Debian or Ubuntu distribution. Then go ahead and install linuxbrew, using the instructions below:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> /home/ubuntu/.bashrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ubuntu/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
 
 Finally, use the following scripts in the install_scripts folder as listed:
 1. setup_environment.sh
