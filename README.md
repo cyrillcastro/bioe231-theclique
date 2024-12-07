@@ -9,7 +9,7 @@ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ubuntu/.b
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ```
 
-Finally, use the following scripts in the install_scripts folder as listed:
+Finally, use the following scripts in the install_scripts folder as listed (NOTE: you may need to change the APACHE_ROOT and GWAS file paths, which are noted in steps 1, 3, and 4):
 1. setup_environment.sh
 2. download_data.sh
 3. process_data.sh
