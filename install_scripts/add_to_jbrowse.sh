@@ -15,6 +15,9 @@ jbrowse add-track H1N1_2009_genes.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy
 jbrowse add-assembly GCF_000865085.1.fa --out $APACHE_ROOT/jbrowse2 --load copy
 jbrowse add-track H3N2_genes.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames GCF_000865085.1
 
+jbrowse add-assembly hg38.fa --out $APACHE_ROOT/jbrowse2 --load copy
+jbrowse add-track hg38_genes.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames hg38
+
 jbrowse text-index --out $APACHE_ROOT/jbrowse2
 
 # Add connections
