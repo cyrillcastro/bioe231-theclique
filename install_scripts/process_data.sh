@@ -43,4 +43,4 @@ bgzip genes.gff
 tabix genes.gff.gz
 
 # Filter BED file for GWAS viewing (NOTE: if your bed file is located in a different location, change the path as needed)
-tabix -0 -b 2 -s 1 -e 2 -f ../data/influenzaGWAS.bed.gz
+tabix -0 -b 2 -s 1 -e 2 -f ../data/filt_influenzaGWAS.bed.gz
