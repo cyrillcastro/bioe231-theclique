@@ -31,3 +31,13 @@ gunzip GCF_000865085.1_ViralMultiSegProj15622_genomic.gff.gz
 jbrowse sort-gff GCF_000865085.1_ViralMultiSegProj15622_genomic.gff > H3N2_genes.gff
 bgzip H3N2_genes.gff
 tabix H3N2_genes.gff
+
+# Hg38
+gunzip Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
+mv Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa hg38.fa
+samtools faidx hg38.fa
+
+gunzip Homo_sapiens.GRCh38.110.chr.gff3.gz
+jbrowse sort-gff Homo_sapiens.GRCh38.110.chr.gff3 > hg38_genes.gff
+bgzip genes.gff
+tabix genes.gff.gz
