@@ -42,5 +42,5 @@ In order to view the protein sequences associated with influenza, please downloa
 | NS1    | Nonstructural protein 1   | 2N74                         |
 | NEP    | Nuclear export protein    | 2QPJ                         |
 
-### Working Example of JBrowse Genome Browser:
+### Working Example of the JBrowse Genome Browser:
 If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
