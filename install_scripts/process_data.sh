@@ -41,3 +41,7 @@ gunzip Homo_sapiens.GRCh38.110.chr.gff3.gz
 jbrowse sort-gff Homo_sapiens.GRCh38.110.chr.gff3 > hg38_genes.gff
 bgzip genes.gff
 tabix genes.gff.gz
+
+# Filter BED file for GWAS viewing (NOTE: if your bed file is located in a different location, change the path as needed)
+bgzip ../data/influenzaGWAS.bed
+tabix -0 -b 2 -s 1 -e 2 -f ../data/influenzaGWAS.bed.gz
