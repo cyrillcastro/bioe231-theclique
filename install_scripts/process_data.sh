@@ -20,7 +20,7 @@ samtools faidx GCF_001343785.1.fa
 gunzip GCF_001343785.1_ViralMultiSegProj274766_genomic.gff.gz
 jbrowse sort-gff GCF_001343785.1_ViralMultiSegProj274766_genomic.gff > H1N1_2009_genes.gff
 bgzip H1N1_2009_genes.gff
-tabix H1N1_2009_genes.gff
+tabix H1N1_2009_genes.gff.gz
 
 # H3N2
 gunzip GCF_000865085.1_ViralMultiSegProj15622_genomic.fna.gz
@@ -30,7 +30,7 @@ samtools faidx GCF_000865085.1.fa
 gunzip GCF_000865085.1_ViralMultiSegProj15622_genomic.gff.gz
 jbrowse sort-gff GCF_000865085.1_ViralMultiSegProj15622_genomic.gff > H3N2_genes.gff
 bgzip H3N2_genes.gff
-tabix H3N2_genes.gff
+tabix H3N2_genes.gff.gz
 
 # Hg38
 gunzip Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz
