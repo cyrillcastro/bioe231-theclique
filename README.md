@@ -17,9 +17,9 @@ Finally, use the following scripts in the install_scripts folder as listed (NOTE
 
 ### JBrowse Genome Viewing:
 
-To view the UCSC data associated with the strains, open the track selector, click on the menu next to the search bar, and go to "turn on/off tracks" in connections. Afterwards, you can turn on connections associated with the strain you wish to view. 
+To view the UCSC data associated with the strains, open the track selector, click on the menu next to the search bar, and go to "turn on/off tracks" in connections. Afterwards, you can turn on connections associated with the strain you wish to view. Additionally, you can turn on the GWAS annotations under the available tracks when viewing the hg38 assembly
 
-As reference, the following RefSeq IDs correspond to the following strains:
+As reference, the following RefSeq IDs correspond to the following influenza strains:
 - GCF_001343785.1: H1N1 (2009)
 - GCF_000865725.1: H1N1 (1934)
 - GCF_000865085.1: H3N2
