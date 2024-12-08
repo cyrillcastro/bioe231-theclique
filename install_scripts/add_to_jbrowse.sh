@@ -19,7 +19,7 @@ jbrowse add-assembly hg38.fa --out $APACHE_ROOT/jbrowse2 --load copy
 jbrowse add-track hg38_genes.gff.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames hg38
 
 # Add GWAS track (change path of zipped bed file as necessary)
-jbrowse add-track ../data/filt_influenzaGWAS.bed.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames hg38
+jbrowse add-track ../data/filtered_influenzaGWAS.bed.gz --out $APACHE_ROOT/jbrowse2 --load copy --assemblyNames hg38
 
 jbrowse text-index --out $APACHE_ROOT/jbrowse2
 
