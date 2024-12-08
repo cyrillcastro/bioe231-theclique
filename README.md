@@ -24,7 +24,7 @@ As reference, the following RefSeq IDs correspond to the following strains:
 - GCF_000865725.1: H1N1 (1934)
 - GCF_000865085.1: H3N2
 
-### Protein viewing:
+### Protein Viewing:
 In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. Afterwards, launch a protein viewing panel, then click on the toggle controls option on the right. Finally, enter the following IDs to view any of the following proteins, with "PDB" as the source:
 
 | Gene   | Protein                   | PDB ID                                                                 |
@@ -41,6 +41,9 @@ In order to view the protein sequences associated with influenza, please downloa
 | M1     | Matrix protein 1          | 3MD2                         |
 | NS1    | Nonstructural protein 1   | 2N74                         |
 | NEP    | Nuclear export protein    | 2QPJ                         |
+
+### Phylogenetic Tree Viewing:
+In order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MsaView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script.
 
 ### Working Example of the JBrowse Genome Browser:
 If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
