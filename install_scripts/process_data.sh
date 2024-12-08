@@ -44,3 +44,6 @@ tabix genes.gff.gz
 
 # Filter BED file for GWAS viewing (NOTE: if your bed file is located in a different location, change the path as needed)
 tabix -0 -b 2 -s 1 -e 2 -f ../data/filt_influenzaGWAS.bed.gz
+
+# Unzip phylogenetic tree file in data folder (NOTE: change the path as necessary)
+gunzip ../data/HA_protein_1918-2012_phylotree.nh.gz
