@@ -2,8 +2,16 @@
 BioE 231 The Clique Final Project
 
 ### Working Example of the JBrowse Genome Browser:
-If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
-*Please note that this working example does NOT have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use it in its entirety. 
+If you would like to try out our genome browser before installing, you can do so at either of the following links: 
+- <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a> (This link does ***NOT*** have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use this version in its entirety!)
+- <a href="http://18.117.155.1/jbrowse2/">http://18.117.155.1/jbrowse2/</a> (This version ***DOES*** have the hg38 assembly installed already).
+Please also note that for both links, the MsaView and ProteinView windows need some form of user input in order to work.
+- For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions after installation to view these two structures.
+- For **MsaView**, there are a few files included in the `data` folder of our repository that can be used for this part of the browser. Once you have those files downloaded to your local, please follow the **"How to View The Data on Jbrowse"** instructions under the **Multiple Sequence Alignment and Phylogenetic Tree Viewing** section. The files that you can view are as follows:
+ - `data/aligned_HA_protein_sequences.fa` is for the MsaView window titled _"MSA of HA genes 1918-2012"_
+ - `HA_protein_1918-2012_phylotree.nh.gz` once unzipped is for the MsaView window titled _"Phylogenetic Tree of Hemagglutinin"_
+  - This file can be unzipped with the following command: `gunzip (Insert Path to file here)\HA_protein_1918-2012_phylotree.nh.gz`
+
 
 ### Introduction and Setup
 
@@ -27,6 +35,7 @@ Finally, use the following scripts in the install_scripts folder as listed (NOTE
 3. process_data.sh
 4. add_to_jbrowse.sh
 
+
 ### JBrowse Genome Viewing:
 
 To view the UCSC data associated with the strains, open the track selector, click on the menu next to the search bar, and go to "turn on/off tracks" in connections. Afterwards, you can turn on connections associated with the strain you wish to view. Additionally, you can turn on the GWAS annotations under the available tracks when viewing the hg38 assembly.
@@ -35,6 +44,7 @@ As reference, the following RefSeq IDs correspond to the following influenza str
 - GCF_001343785.1: H1N1 (2009)
 - GCF_000865725.1: H1N1 (1934)
 - GCF_000865085.1: H3N2
+
 
 ### Protein Viewing:
 In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. Afterwards, launch a protein viewing panel, then click on the toggle controls option on the right. Finally, enter the following IDs to view any of the following proteins, with "PDB" as the source:
@@ -53,6 +63,7 @@ In order to view the protein sequences associated with influenza, please downloa
 | M1     | Matrix protein 1          | 3MD2                         |
 | NS1    | Nonstructural protein 1   | 2N74                         |
 | NEP    | Nuclear export protein    | 2QPJ                         |
+
 
 ### Multiple Sequence Alignment and Phylogenetic Tree Viewing:
 
