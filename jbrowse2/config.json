@@ -1,0 +1,993 @@
+{
+  "plugins": [
+    {
+      "name": "MsaView",
+      "url": "https://unpkg.com/jbrowse-plugin-msaview/dist/jbrowse-plugin-msaview.umd.production.min.js"
+    },
+    {
+      "name": "Biothings",
+      "url": "https://unpkg.com/jbrowse-plugin-biothings/dist/jbrowse-plugin-biothings.umd.production.min.js"
+    },
+    {
+      "name": "Protein3d",
+      "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js"
+    },
+    {
+      "name": "GWAS",
+      "url": "https://unpkg.com/jbrowse-plugin-gwas/dist/jbrowse-plugin-gwas.umd.production.min.js"
+    }
+  ],
+  "assemblies": [
+    {
+      "name": "hg38",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hg38-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hg38.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hg38.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "GCF_000865725.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCF_000865725.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "GCF_000865725.1.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "GCF_000865725.1.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "GCF_001343785.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCF_001343785.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "GCF_001343785.1.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "GCF_001343785.1.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "GCF_000865085.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "GCF_000865085.1-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "GCF_000865085.1.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "GCF_000865085.1.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [
+    {
+      "type": "UCSCTrackHubConnection",
+      "name": "H1N1_1934",
+      "hubTxtLocation": {
+        "uri": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/865/725/GCF_000865725.1/hub.txt",
+        "locationType": "UriLocation"
+      },
+      "connectionId": "UCSCTrackHubConnection-GCF_000865725.1-1733477563281",
+      "assemblyNames": [
+        "GCF_000865725.1"
+      ]
+    },
+    {
+      "type": "UCSCTrackHubConnection",
+      "name": "H1N1_2009",
+      "hubTxtLocation": {
+        "uri": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/343/785/GCF_001343785.1/hub.txt",
+        "locationType": "UriLocation"
+      },
+      "connectionId": "UCSCTrackHubConnection-GCF_001343785.1-1733477563772",
+      "assemblyNames": [
+        "GCF_001343785.1"
+      ]
+    },
+    {
+      "type": "UCSCTrackHubConnection",
+      "name": "H3N2",
+      "hubTxtLocation": {
+        "uri": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/865/085/GCF_000865085.1/hub.txt",
+        "locationType": "UriLocation"
+      },
+      "connectionId": "UCSCTrackHubConnection-GCF_000865085.1-1733477564274",
+      "assemblyNames": [
+        "GCF_000865085.1"
+      ]
+    }
+  ],
+  "defaultSession": {
+    "drawerPosition": "right",
+    "drawerWidth": 464,
+    "widgets": {
+      "pluginStoreWidget": {
+        "id": "pluginStoreWidget",
+        "type": "PluginStoreWidget",
+        "filterText": ""
+      },
+      "GridBookmark": {
+        "id": "GridBookmark",
+        "type": "GridBookmarkWidget"
+      },
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "view": "7UZOnf5UyuF3AvAqMr-Qd",
+        "faceted": {
+          "filterText": "",
+          "showSparse": false,
+          "showFilters": true,
+          "showOptions": false,
+          "panelWidth": 400
+        }
+      },
+      "baseFeature": {
+        "finalizedFeatureData": {
+          "pos": "20945592",
+          "reported_genes": "LOC286114,LZTS1",
+          "mapped_gene": "TMEM97P2-LINC03023",
+          "snps": "rs500816",
+          "pvalue_mlog": "31.522878745280300",
+          "type": null,
+          "score": null,
+          "start": 20945592,
+          "end": 20945593,
+          "refName": "8",
+          "uniqueId": "32906142-264018",
+          "subfeatures": [],
+          "__jbrowsefmt": {}
+        },
+        "id": "baseFeature",
+        "type": "BaseFeatureWidget",
+        "view": "7UZOnf5UyuF3AvAqMr-Qd",
+        "track": "b5-1AS08opQpN9ZfY3NN2",
+        "trackId": "filtered_influenzaGWAS.bed",
+        "trackType": "FeatureTrack",
+        "maxDepth": 99999,
+        "sequenceFeatureDetails": {}
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector",
+      "baseFeature": "baseFeature"
+    },
+    "minimized": false,
+    "id": "u_3UlDEDiNEX2SClqtVy7",
+    "name": "Influenza Genome Browser (BIOENG 231 Final Project by \"The CLIQUE\")",
+    "margin": 0,
+    "views": [
+      {
+        "id": "lLb98Kx6nqxLZDKumGzvM",
+        "displayName": "HA in 1934 H1N1, 2009 H1N1, and H3N2",
+        "minimized": false,
+        "type": "LinearSyntenyView",
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "interactToggled": false,
+        "levels": [
+          {
+            "id": "FKmTd3gys6yORt1DJ6Z1m",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [],
+            "height": 100,
+            "level": 0
+          }
+        ],
+        "views": [
+          {
+            "id": "_Nxy1QQHdWOL04o__5yOw",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 13867,
+            "bpPerPx": 0.09819226096240909,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_002017.1",
+                "start": 0,
+                "end": 1778,
+                "assemblyName": "GCF_000865725.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "JTTdp_Wy6itmyd5A21G3v",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_000865725.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "25sPyIeRNGam6-hUXlItO",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_000865725.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "Is9ksnaOJvj1HJB5--s-A",
+                "type": "FeatureTrack",
+                "configuration": "H1N1_1934_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "_i9mUYuQNMdLxcHHnViI6",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H1N1_1934_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "_QdsjrZy_xRvS_clRoeBh",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 13747,
+            "bpPerPx": 0.0939398402120688,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_026433.1",
+                "start": 0,
+                "end": 1701,
+                "assemblyName": "GCF_001343785.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "0X98Xrq4xS2-TevqreTKO",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_001343785.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "y5CUvbw2iTIuVDMQEtknp",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_001343785.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "ZjBIoUzdtVbO66oJi1Xgc",
+                "type": "FeatureTrack",
+                "configuration": "H1N1_2009_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "yh8lR4H0I5Xj9byYVypV1",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H1N1_2009_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "C0nyERwm-BUb97nQ3QA8L",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 12700,
+            "bpPerPx": 0.09730864106623499,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_007366.1",
+                "start": 0,
+                "end": 1762,
+                "assemblyName": "GCF_000865085.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "2DLBHsgro1oL2S5yf1FX0",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_000865085.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "-GfrBN8PJ0LRz2Bs4c2pu",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_000865085.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "TMoDGmKm4ChJWVzPB8MoY",
+                "type": "FeatureTrack",
+                "configuration": "H3N2_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "l-jHR7M4vAh8g9Xq9WXrd",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H3N2_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCIGAR": true,
+        "drawCurves": false
+      },
+      {
+        "id": "Fcu8KxORMWVEfnBcX03Il",
+        "displayName": "NA in 1934 H1N1, 2009 H1N1, and H3N2",
+        "minimized": false,
+        "type": "LinearSyntenyView",
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "interactToggled": false,
+        "levels": [
+          {
+            "id": "thCyOVn-cYWtrC1n1rFsD",
+            "type": "LinearSyntenyViewHelper",
+            "tracks": [],
+            "height": 100,
+            "level": 0
+          }
+        ],
+        "views": [
+          {
+            "id": "IYIqTxeBhPgFHl1MT5X-v",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 5866,
+            "bpPerPx": 0.16,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_002018.1",
+                "start": 0,
+                "end": 1413,
+                "assemblyName": "GCF_000865725.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "IYgAQ2RBJFp3de79BFDbr",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_000865725.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "Hmta9brENa-kI-bBMfu0b",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_000865725.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "MwyzIx0UE_Ilix0QpYpvq",
+                "type": "FeatureTrack",
+                "configuration": "H1N1_1934_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "d6HPdl4VjTjFB_GGSmaqB",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H1N1_1934_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "p-GQ4Kudy-07gDPvzMte2",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 5942,
+            "bpPerPx": 0.16,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_026434.1",
+                "start": 0,
+                "end": 1410,
+                "assemblyName": "GCF_001343785.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "oLmPzcNS2tYIwuh7WbTkS",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_001343785.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "Nfg4W5r5Jj6LfuVKjGyxb",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_001343785.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "h30kF0d2P0DSEp3X_5vIm",
+                "type": "FeatureTrack",
+                "configuration": "H1N1_2009_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "sDxzqcT4-tyrnFWHw0sp6",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H1N1_2009_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          },
+          {
+            "id": "aR6V_pSBOgvRdPukNy6Rb",
+            "minimized": false,
+            "type": "LinearGenomeView",
+            "offsetPx": 6046,
+            "bpPerPx": 0.16,
+            "displayedRegions": [
+              {
+                "reversed": false,
+                "refName": "NC_007368.1",
+                "start": 0,
+                "end": 1467,
+                "assemblyName": "GCF_000865085.1"
+              }
+            ],
+            "tracks": [
+              {
+                "id": "cwhd3NCTL3c2GnpYcMlBz",
+                "type": "ReferenceSequenceTrack",
+                "configuration": "GCF_000865085.1-ReferenceSequenceTrack",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "35H8z1rO7SoqDRv2ZTfy5",
+                    "type": "LinearReferenceSequenceDisplay",
+                    "heightPreConfig": 120,
+                    "configuration": "GCF_000865085.1-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                    "showForward": true,
+                    "showReverse": true,
+                    "showTranslation": true
+                  }
+                ]
+              },
+              {
+                "id": "AklLDmXvfCxsq_f1-xTl8",
+                "type": "FeatureTrack",
+                "configuration": "H3N2_genes.gff",
+                "minimized": false,
+                "displays": [
+                  {
+                    "id": "sYdmljbEh8C0LlxCCZ9HP",
+                    "type": "LinearBasicDisplay",
+                    "configuration": "H3N2_genes.gff-LinearBasicDisplay"
+                  }
+                ]
+              }
+            ],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "hideNoTracksActive": false,
+            "trackSelectorType": "hierarchical",
+            "showCenterLine": true,
+            "showCytobandsSetting": true,
+            "trackLabels": "",
+            "showGridlines": true,
+            "highlight": [],
+            "colorByCDS": true,
+            "showTrackOutlines": true,
+            "showBookmarkHighlights": true,
+            "showBookmarkLabels": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCIGAR": true,
+        "drawCurves": false
+      },
+      {
+        "id": "aCwXyNkJnGMNQxmLwE8Yp",
+        "displayName": "Protein Structures of Hemagglutinin (6GOL) and Neuraminidase (8E6J)",
+        "minimized": false,
+        "type": "ProteinView",
+        "structures": [],
+        "showControls": false,
+        "height": 650,
+        "showHighlight": false,
+        "zoomToBaseLevel": true,
+        "showAlignment": false
+      },
+      {
+        "data": {
+          "tree": ""
+        },
+        "id": "QUlLRXEhZJFV3RcAjCffy",
+        "displayName": "MSA of HA genes 1918-2012",
+        "minimized": false,
+        "drawLabels": true,
+        "labelsAlignRight": false,
+        "treeAreaWidth": 400,
+        "treeWidth": 227.8984375,
+        "treeWidthMatchesArea": true,
+        "showBranchLen": true,
+        "drawTree": true,
+        "drawNodeBubbles": true,
+        "bgColor": true,
+        "colorSchemeName": "maeditor",
+        "showDomains": false,
+        "allowedGappyness": 100,
+        "contrastLettering": true,
+        "subFeatureRows": false,
+        "type": "MsaView",
+        "drawMsaLetters": true,
+        "hideGaps": true,
+        "drawTreeText": true,
+        "height": 550,
+        "rowHeight": 21,
+        "scrollY": 0,
+        "scrollX": -1,
+        "colWidth": 17,
+        "currentAlignment": 0,
+        "collapsed": [],
+        "collapsedLeaves": [],
+        "turnedOffTracks": {},
+        "featureFilters": {},
+        "connectedHighlights": [],
+        "zoomToBaseLevel": false
+      },
+      {
+        "data": {
+          "msa": "",
+          "treeMetadata": ""
+        },
+        "id": "4GmE1PlidFQGCwwQ3rMtE",
+        "displayName": "Phylogenetic Tree of Hemagglutinin",
+        "minimized": false,
+        "drawLabels": true,
+        "labelsAlignRight": false,
+        "treeAreaWidth": 2062,
+        "treeWidth": 1872.6982421875,
+        "treeWidthMatchesArea": true,
+        "showBranchLen": true,
+        "drawTree": true,
+        "drawNodeBubbles": true,
+        "bgColor": true,
+        "colorSchemeName": "maeditor",
+        "showDomains": false,
+        "allowedGappyness": 100,
+        "contrastLettering": true,
+        "subFeatureRows": false,
+        "type": "MsaView",
+        "drawMsaLetters": true,
+        "hideGaps": true,
+        "drawTreeText": true,
+        "height": 550,
+        "rowHeight": 18,
+        "scrollY": 0,
+        "scrollX": 0,
+        "colWidth": 14,
+        "currentAlignment": 0,
+        "collapsed": [],
+        "collapsedLeaves": [],
+        "turnedOffTracks": {},
+        "featureFilters": {},
+        "connectedHighlights": [],
+        "zoomToBaseLevel": false
+      },
+      {
+        "id": "7UZOnf5UyuF3AvAqMr-Qd",
+        "displayName": "Influenza GWAS on Homo sapiens Genome",
+        "minimized": false,
+        "type": "LinearGenomeView",
+        "offsetPx": 519433,
+        "bpPerPx": 40.24312273092548,
+        "displayedRegions": [
+          {
+            "reversed": false,
+            "refName": "8",
+            "start": 0,
+            "end": 145138636,
+            "assemblyName": "hg38"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "CuVQguCSRnJJvK0nkOffS",
+            "type": "ReferenceSequenceTrack",
+            "configuration": "hg38-ReferenceSequenceTrack",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "FDgq4UwighC1zlftBRVB8",
+                "type": "LinearReferenceSequenceDisplay",
+                "heightPreConfig": 50,
+                "configuration": "hg38-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                "showForward": true,
+                "showReverse": true,
+                "showTranslation": true
+              }
+            ]
+          },
+          {
+            "id": "Q-bTcIOAa1iUTm8O3-55h",
+            "type": "FeatureTrack",
+            "configuration": "genes.gff",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "AQTFZU52zuVE-WvTlC5F6",
+                "type": "LinearBasicDisplay",
+                "heightPreConfig": 682,
+                "configuration": "genes.gff-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "b5-1AS08opQpN9ZfY3NN2",
+            "type": "FeatureTrack",
+            "configuration": "filtered_influenzaGWAS.bed",
+            "minimized": false,
+            "displays": [
+              {
+                "id": "QiBY1bqp3yV4a3mMrxmHL",
+                "type": "LinearArcDisplay",
+                "heightPreConfig": 244,
+                "configuration": "filtered_influenzaGWAS.bed-LinearArcDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "showCenterLine": true,
+        "showCytobandsSetting": true,
+        "trackLabels": "",
+        "showGridlines": true,
+        "highlight": [],
+        "colorByCDS": true,
+        "showTrackOutlines": true,
+        "showBookmarkHighlights": true,
+        "showBookmarkLabels": true
+      }
+    ],
+    "sessionTracks": [],
+    "sessionAssemblies": [],
+    "temporaryAssemblies": [],
+    "connectionInstances": [],
+    "sessionConnections": [],
+    "focusedViewId": "QUlLRXEhZJFV3RcAjCffy",
+    "sessionPlugins": [
+      {
+        "name": "GWAS",
+        "authors": [
+          "Colin Diesh"
+        ],
+        "description": "Plugin for displaying GWAS results such as manhattan plot renderings",
+        "location": "https://github.com/cmdcolin/jbrowse-plugin-gwas",
+        "url": "https://unpkg.com/jbrowse-plugin-gwas/dist/jbrowse-plugin-gwas.umd.production.min.js",
+        "license": "MIT",
+        "image": "https://raw.githubusercontent.com/GMOD/jbrowse-plugin-list/main/img/gwas-screenshot-fs8.png"
+      },
+      {
+        "name": "Protein3d",
+        "authors": [
+          "Colin Diesh"
+        ],
+        "description": "View 3-D protein structures in JBrowse 2",
+        "location": "https://github.com/cmdcolin/jbrowse-plugin-protein3d",
+        "license": "MIT",
+        "url": "https://unpkg.com/jbrowse-plugin-protein3d/dist/jbrowse-plugin-protein3d.umd.production.min.js",
+        "image": "https://raw.githubusercontent.com/GMOD/jbrowse-plugin-list/main/img/protein3d-fs8.png"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "genes.gff",
+      "name": "Homo sapiens genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "H1N1_1934_genes.gff",
+      "name": "H1N1_1934_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "H1N1_1934_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "H1N1_1934_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCF_000865725.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "H1N1_2009_genes.gff",
+      "name": "H1N1_2009_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "H1N1_2009_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "H1N1_2009_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCF_001343785.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "H3N2_genes.gff",
+      "name": "H3N2_genes.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "H3N2_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "H3N2_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "GCF_000865085.1"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "filtered_influenzaGWAS.bed",
+      "name": "filtered_influenzaGWAS.bed",
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "filtered_influenzaGWAS.bed.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "filtered_influenzaGWAS.bed.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "hg38-index",
+      "ixFilePath": {
+        "uri": "trix/hg38.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/hg38.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/hg38_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "hg38"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "GCF_000865725.1-index",
+      "ixFilePath": {
+        "uri": "trix/GCF_000865725.1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/GCF_000865725.1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/GCF_000865725.1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "GCF_000865725.1"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "GCF_001343785.1-index",
+      "ixFilePath": {
+        "uri": "trix/GCF_001343785.1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/GCF_001343785.1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/GCF_001343785.1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "GCF_001343785.1"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "GCF_000865085.1-index",
+      "ixFilePath": {
+        "uri": "trix/GCF_000865085.1.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/GCF_000865085.1.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/GCF_000865085.1_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "GCF_000865085.1"
+      ]
+    }
+  ]
+}

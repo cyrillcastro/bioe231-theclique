@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-06T09:32:32.056Z",
+  "tracks": [
+    {
+      "trackId": "H1N1_1934_genes.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "H1N1_1934_genes.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "H1N1_1934_genes.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "GCF_000865725.1"
+  ]
+}
