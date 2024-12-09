@@ -5,6 +5,8 @@ BioE 231 The Clique Final Project
 If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
 *Please note that this working example does NOT have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use it in its entirety. 
 
+### Introduction and Setup
+
 This is the JBrowse configuration for viewing data related to influenza, specifically the H1N1 and H3N2 strains. In order to set up the database properly, make sure you are using a Debian or Ubuntu distribution. Then go ahead and install linuxbrew, using code block below:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
