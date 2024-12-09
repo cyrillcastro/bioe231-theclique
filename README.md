@@ -63,7 +63,7 @@ How to View The Data on Jbrowse
 
 In order to view the provided multiple sequence alignment file (aligned_HA_protein_sequences.fa), please download the MsaView plugin from the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the file (aligned_HA_protein_sequences.fa, which should be in the data folder) under "MSA file or URL" after choosing the file upload option (Details on how this file was generated is included below).
 
-Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh.gz), please launch a multiple sequence alignment viewing panel, then upload the attached file (also in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script.
+Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh.gz), please launch a different multiple sequence alignment viewing panel, then upload the attached file (also in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script.
 
 Steps on How These Files were Generated:
 
