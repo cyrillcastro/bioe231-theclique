@@ -148,7 +148,7 @@ Decrease the font size under Settings to see the text more clearly.
 
 Below is the link to our tree, open it and choose "Collapsed tree" view. 
 
-The 2009 cluster is almost at the bottom right corner where there's a big triangle of collapsed branches:
+Note that the 2009 cluster is almost at the bottom right corner where there's a big triangle of collapsed branches. We have rearranged the nodes and settings to clearly show this here:
 <a href="https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html">https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html</a>
 
 This Newick tree file, which can also be found in our data folder, can be uploaded onto MsaView on JBrowse. 
