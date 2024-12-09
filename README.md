@@ -129,12 +129,12 @@ This code will give you the re-ordered data "ordered_HA_protein_sequences.fa", w
 
 2) Install MAFFT and use MAFFT to perform multiple sequence alignment
 
-Install MAFFT and verify that it was successfully installed. For us, the version we got after running the below code is v.7.505. Press "y" after "sudo apt-get install mafft" to say yes to installation question.
+Install MAFFT and verify that it was successfully installed. For us, the version we got after running the below code is v.7.505. 
 ```
 sudo apt-get update
 sudo apt-get install mafft
 # Press y to say yes to installation question
-# Verify that mafft was successfully installed
+# Verify that mafft was successfully installed by checking its version.
 mafft --version
 ```
 
