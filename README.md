@@ -5,7 +5,7 @@ BioE 231 The Clique Final Project
 If you would like to try out our genome browser before installing, you can do so with the following link: <a href="http://18.117.155.1/jbrowse2/">http://18.117.155.1/jbrowse2/</a>
 
 ***A NOTE about the working examples:***
-Please also note that the MsaView and ProteinView windows need some form of user input in order to work.
+Please also note that the MsaView and ProteinView windows initialize on a blank state and will require some form of user input from the user upon starting the genome browser.
 - For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions after installation to view these two structures.
 - For **MsaView**, there are a few files included in the `data` folder of our repository that can be used for this part of the browser. Once you have those files downloaded to your local, please follow the **"How to View The Data on Jbrowse"** instructions under the **Multiple Sequence Alignment and Phylogenetic Tree Viewing** section. The files that you can view are as follows:
     - `data/aligned_HA_protein_sequences.fa` is for the MsaView window titled _"MSA of HA genes 1918-2012"_
