@@ -84,7 +84,8 @@ Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918
 
 **Steps on How These Files were Generated:**
 
-1) Download and sort the data from NCBI
+1) Download and sort the data from NCBI.
+   
 To download the data, visit <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. We obtained the data using the following criteria:
 
 - Keyword = "H1N1",
@@ -96,7 +97,7 @@ To download the data, visit <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Da
 - Subtype = "any",
 - Collection year = "1918-2012"
 - Under additional filters, include sequences from "Pandemic (H1N1) viruses" and "Lineage defining strains".
-Any other criteria selection on the website that are not listed above were left blank or as "any".
+Any other criteria selection on the website that are not listed above were left as the default setting.
 
 This will generate a list of sequences. At the top, click on "Customize FASTA defline" and customize it as ">{year}_{accession}". Then click, "Download". This will download the data as a FASTA file with defline, called "HA_protein_sequences-1918-2012.fa" in our data folder. 
 
