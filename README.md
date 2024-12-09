@@ -49,7 +49,9 @@ In order to view the protein sequences associated with influenza, please downloa
 | NEP    | Nuclear export protein    | 2QPJ                         |
 
 ### Phylogenetic Tree Viewing:
-In order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MsaView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script.
+In order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MSAView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script. 
+
+This phylogenetic tree shows how the hemagglutinin gene has changed over time from 1918-2012. The data to generate this tree was obtained from <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi/">NCBI's Influenza Virus Resource</a>. We filtered out the data on this website by the following criteria: Keyword = "H1N1", Sequence type = "Protein", Type = "A", Host = "human", Country/Region = "United States", protein = "HA", subtype = "any", collection year = "1918-2012", Get sequences from "Pandemic (H1N1) viruses and "Lineage defining strains". The data was downloaded as a FASTA file with FASTA defline customized as >{year}_{accession}. This data was then loaded into <a href="https://mafft.cbrc.jp/alignment/server/">generator</a> to create a phylogenetic tree. 
 
 ### Working Example of the JBrowse Genome Browser:
 If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
