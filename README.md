@@ -10,9 +10,9 @@ If you would like to try out our genome browser before installing, you can do so
 Please also note that for both links, the MsaView and ProteinView windows need some form of user input in order to work.
 - For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions after installation to view these two structures.
 - For **MsaView**, there are a few files included in the `data` folder of our repository that can be used for this part of the browser. Once you have those files downloaded to your local, please follow the **"How to View The Data on Jbrowse"** instructions under the **Multiple Sequence Alignment and Phylogenetic Tree Viewing** section. The files that you can view are as follows:
- - `data/aligned_HA_protein_sequences.fa` is for the MsaView window titled _"MSA of HA genes 1918-2012"_
- - `HA_protein_1918-2012_phylotree.nh.gz` once unzipped is for the MsaView window titled _"Phylogenetic Tree of Hemagglutinin"_
-  - This file can be unzipped with the following command: `gunzip (Insert Path to file here)\HA_protein_1918-2012_phylotree.nh.gz`
+    - `data/aligned_HA_protein_sequences.fa` is for the MsaView window titled _"MSA of HA genes 1918-2012"_
+    - `HA_protein_1918-2012_phylotree.nh.gz` once unzipped is for the MsaView window titled _"Phylogenetic Tree of Hemagglutinin"_
+        - This file can be unzipped with the following command: `gunzip (Insert Path to file here)\HA_protein_1918-2012_phylotree.nh.gz`
 
 
 ### Introduction and Setup
