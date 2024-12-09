@@ -48,12 +48,29 @@ In order to view the protein sequences associated with influenza, please downloa
 | NS1    | Nonstructural protein 1   | 2N74                         |
 | NEP    | Nuclear export protein    | 2QPJ                         |
 
-### Phylogenetic Tree Viewing:
-In order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MSAView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script. 
+### Multiple Sequence Alignment and Phylogenetic Tree Viewing:
+To examine how the hemagglutinin gene has changed over time, we obtained hemagglutinin's protein sequences from 1918-2012 from <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. Next, we performed multiple sequence alignment on the files using MAFFT after sorting them by year from earliest to latest. This data was then used to build a phylogenetic tree to help us better visualize any pattern.
 
-This phylogenetic tree shows how the hemagglutinin gene has changed over time from 1918 to 2012. The data to generate this tree was obtained from <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. We filtered out the data on this website by the following criteria: Keyword = "H1N1", Sequence type = "Protein", Type = "A", Host = "human", Country/Region = "United States", protein = "HA", subtype = "any", collection year = "1918-2012", Get sequences from "Pandemic (H1N1) viruses and "Lineage defining strains". The data was downloaded as a FASTA file with FASTA defline customized as >{year}_{accession}. This data was then used to build a <a href="https://mafft.cbrc.jp/alignment/server/">phylogenetic tree</a> with MAFFT. 
+In order to view the provided multiple sequence alignment file (aligned_HA_protein_sequences.fa), please download the MsaView plugin from the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "MSA file or URL" after choosing the file upload option (Information on how this file was generated is included below).
 
+Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MsaView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script. 
 
+Steps on how these files were generated:
+
+1) Downloading and preparing the data from NCBI
+To download the data, we filtered out the data on this database using criteria: Keyword = "H1N1", Sequence type = "Protein", Type = "A", Host = "human", Country/Region = "United States", protein = "HA", subtype = "any", collection year = "1918-2012", Get sequences from "Pandemic (H1N1) viruses and "Lineage defining strains". The data was then downloaded as a FASTA file with FASTA defline customized as >{year}_{accession}. We then sort
+
+Then, we sorted the data based on years using the code below:
+
+"code part"
+
+2) Installing MAFFT and using MAFFT to perform multiple sequence alignment
+
+"code part"
+
+3) Building the phylogenetic tree
+
+This data from NCBI was then used to generate a phylogenetic tree using <a href="https://mafft.cbrc.jp/alignment/server/">this website</a>. 
 
 ### Working Example of the JBrowse Genome Browser:
 If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
