@@ -2,9 +2,7 @@
 BioE 231 The Clique Final Project
 
 ### Working Example of the JBrowse Genome Browser:
-If you would like to try out our genome browser before installing, you can do so at either of the following links: 
-- <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a> (This link does ***NOT*** have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use this version in its entirety!)
-- <a href="http://18.117.155.1/jbrowse2/">http://18.117.155.1/jbrowse2/</a> (This version ***DOES*** have the hg38 assembly installed already).
+If you would like to try out our genome browser before installing, you can do so with the following link: <a href="http://18.117.155.1/jbrowse2/">http://18.117.155.1/jbrowse2/</a>
 
 ***A NOTE about the working examples:***
 Please also note that for both links, the MsaView and ProteinView windows need some form of user input in order to work.
