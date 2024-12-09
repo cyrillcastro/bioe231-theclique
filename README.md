@@ -53,7 +53,7 @@ To examine how the hemagglutinin gene has changed over time, we obtained hemaggl
 
 In order to view the provided multiple sequence alignment file (aligned_HA_protein_sequences.fa), please download the MsaView plugin from the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "MSA file or URL" after choosing the file upload option (Information on how this file was generated is included below).
 
-Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please download the MsaView plugin for the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script. 
+Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh), please launch a multiple sequence alignment viewing panel, then upload the attached file (which should be in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script. 
 
 Steps on how these files were generated:
 
