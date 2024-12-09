@@ -5,7 +5,7 @@ BioE 231 The Clique Final Project
 If you would like to try out our genome browser before installing, you can do so at either of the following links: 
 - <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a> (This link does ***NOT*** have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use this version in its entirety!)
 - <a href="http://18.117.155.1/jbrowse2/">http://18.117.155.1/jbrowse2/</a> (This version ***DOES*** have the hg38 assembly installed already).
-<br>
+
 ***A NOTE about the working examples:***
 Please also note that for both links, the MsaView and ProteinView windows need some form of user input in order to work.
 - For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions after installation to view these two structures.
