@@ -1,6 +1,10 @@
 # bioe231-theclique
 BioE 231 The Clique Final Project
 
+### Working Example of the JBrowse Genome Browser:
+If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
+*Please note that this working example does NOT have the hg38 assembly installed due to GitHub's file size limitations. Please follow the instructions to install our browser if you would like to use it in its entirety. 
+
 This is the JBrowse configuration for viewing data related to influenza, specifically the H1N1 and H3N2 strains. In order to set up the database properly, make sure you are using a Debian or Ubuntu distribution. Then go ahead and install linuxbrew, using code block below:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -52,20 +56,20 @@ In order to view the protein sequences associated with influenza, please downloa
 
 To examine how the hemagglutinin gene has changed over time, we obtained hemagglutinin's protein sequences from 1918-2012 from <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. We chose this timeline to include the pandemics. 
 
-Summary of what we did and the resulting file (which are available for downloads in our data folder) after each step:
+**Summary of what we did and the resulting file (which are available for downloads in our data folder) after each step:**
 
 1) Download the original data from NCBI (HA_protein_sequences-1918-2012.fa)
 2) Reorder the sequences by year, earliest to latest (ordered_HA_protein_sequences.fa)
 3) Perform multiple sequence alignment on the ordered sequences using MAFFT (aligned_HA_protein_sequences.fa). 
 4) Build a phylogenetic tree on the MAFFT website (HA_protein_1918-2012_phylotree.nh.gz - we compressed it for quicker submission)
 
-How to View The Data on Jbrowse
+**How to View The Data on Jbrowse**
 
 In order to view the provided multiple sequence alignment file (aligned_HA_protein_sequences.fa), please download the MsaView plugin from the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the file (aligned_HA_protein_sequences.fa, which should be in the data folder) under "MSA file or URL" after choosing the file upload option (Details on how this file was generated is included below).
 
 Similarly, in order to view the provided phylogenetic tree file (HA_protein_1918-2012_phylotree.nh.gz), please launch a different multiple sequence alignment viewing panel, then upload the attached file (also in the data folder) under "Tree file or URL" after choosing the file upload option. The file should be unzipped in the data folder after running the process_data.sh script.
 
-Steps on How These Files were Generated:
+**Steps on How These Files were Generated:**
 
 1) Download and sort the data from NCBI
 To download the data, visit <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. We obtained the data using the following criteria:
@@ -152,6 +156,3 @@ Note that the 2009 cluster is almost at the bottom right corner where there's a 
 <a href="https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html">https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html</a>
 
 This Newick tree file, which can also be found in our data folder, can be uploaded onto MsaView on JBrowse. 
-
-### Working Example of the JBrowse Genome Browser:
-If you would like to try out our genome browser before installing, you can do so at the following link: <a href="https://mluo123.github.io/bioe231-theclique/jbrowse2/">https://mluo123.github.io/bioe231-theclique/jbrowse2/</a>
