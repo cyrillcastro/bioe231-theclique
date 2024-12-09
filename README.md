@@ -155,7 +155,7 @@ This file can now be viewed via MsaView using the instructions above.
 
 3) Building the phylogenetic tree
 
-To build a phylogenetic tree with an interactive surface, we'll use <a href="https://mafft.cbrc.jp/alignment/server/">this website</a>. This website also performs multiple sequence alignment but unlike what we did above, this website does not offer a nice visualization that allow user to analyze the alignment as well. 
+To build a phylogenetic tree with an interactive surface, we'll use <a href="https://mafft.cbrc.jp/alignment/server/">this MAFFT website</a>. This website also performs multiple sequence alignment but unlike what we did above, it does not offer a nice visualization that allow user to analyze the alignment as well. 
 
 Click on the link above and upload the "ordered_HA_protein_sequences.fa" file to where it says "Input: Paste protein or DNA sequences in fasta format or upload a plain text file:". Without changing anything else, click "Submit". 
 
