@@ -142,7 +142,13 @@ To build a phylogenetic tree with an interactive surface, we'll use <a href="htt
 Click on the link above and upload the "ordered_HA_protein_sequences.fa" file to where it says "Input: Paste protein or DNA sequences in fasta format or upload a plain text file:". Without changing anything else, click "Submit". 
 
 After the page finishes loading. Click "Phylogenetic tree". Then choose the "Average linkage (UPGMA)" method. Select "Go". 
-Now, you can either scroll down and download "Tree file" as a Newick folder under "Result (for external tree viewers)" or click "View tree on Phylo.io" to play around with the interactive tree (You can expand/collapse or rearrange the tree to explore the data you're interested in". Below is the link to out tree, open it and choose "Collapsed tree" view. The 2009 cluster is almost at the bottom right corner where there's a big triangle of collapsed branches:
+Now, you can either scroll down and download "Tree file" as a Newick folder under "Result (for external tree viewers)" or click "View tree on Phylo.io" to play around with the interactive tree. 
+You can expand/collapse or rearrange the tree to explore the data you're interested in. 
+Decrease the font size under Settings to see the text more clearly.
+
+Below is the link to our tree, open it and choose "Collapsed tree" view. 
+
+The 2009 cluster is almost at the bottom right corner where there's a big triangle of collapsed branches:
 <a href="https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html">https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html</a>
 
 This Newick tree file, which can also be found in our data folder, can be uploaded onto MsaView on JBrowse. 
