@@ -6,7 +6,7 @@ If you would like to try out our genome browser before installing, you can do so
 
 ***A NOTE about the working example:***
 Please also note that the MsaView and ProteinView windows initialize on a blank state and will require some form of user input upon starting the genome browser.
-- For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions after installation to view these two structures.
+- For **ProteinView**, there may be some remote states already installed but the main purpose for this was to view HA and NA. The PDB IDs are included in this window's title, so please follow the **"Protein Viewing"** instructions _after installation_ to view these two structures.
 - For **MsaView**, there are a few files included in the `data` folder of our repository that can be used for this part of the browser. Once you have those files downloaded to your local, please follow the **"How to View The Data on Jbrowse"** instructions under the **Multiple Sequence Alignment and Phylogenetic Tree Viewing** section. The files that you can view are as follows:
     - `data/aligned_HA_protein_sequences.fa` is for the MsaView window titled _"MSA of HA genes 1918-2012"_
     - `data/HA_protein_1918-2012_phylotree.nh.gz` is for the MsaView window titled _"Phylogenetic Tree of Hemagglutinin"_
@@ -47,7 +47,10 @@ As reference, the following RefSeq IDs correspond to the following influenza str
 
 
 ### Protein Viewing:
-In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. Afterwards, launch a protein viewing panel, then click on the toggle controls option on the right. Enter the following IDs to view any of the following proteins, with "PDB" as the source:
+**Installation:** 
+In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. 
+**Launching the Protein View:** 
+Launch a protein viewing panel _at the start of your session_ (it will not appear as an option to add if you add another view first). Once you have the Protein View window open, click on the toggle controls option (the button with the wrench) on the right. Enter the following IDs to view any of the following proteins, with "PDB" as the source:
 
 | Gene   | Protein                   | PDB ID                                                                 |
 |--------|---------------------------|------------------------------------------------------------------------|
