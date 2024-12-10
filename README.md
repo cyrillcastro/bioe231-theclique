@@ -47,7 +47,7 @@ As reference, the following RefSeq IDs correspond to the following influenza str
 
 
 ### Protein Viewing:
-In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. Afterwards, launch a protein viewing panel, then click on the toggle controls option on the right. Finally, enter the following IDs to view any of the following proteins, with "PDB" as the source:
+In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. Afterwards, launch a protein viewing panel, then click on the toggle controls option on the right. Enter the following IDs to view any of the following proteins, with "PDB" as the source:
 
 | Gene   | Protein                   | PDB ID                                                                 |
 |--------|---------------------------|------------------------------------------------------------------------|
@@ -64,6 +64,7 @@ In order to view the protein sequences associated with influenza, please downloa
 | NS1    | Nonstructural protein 1   | 2N74                         |
 | NEP    | Nuclear export protein    | 2QPJ                         |
 
+Once the assembly has loaded, this should bring you to the State Tree tab. Under the PDB ID you just entered, select the "Assembly 1" tab > "Apply Action" dropdown > "3D Representation." Feel free to customize your visualization as you like, or leave as is with the default 3D configuration. Finally, to view the protein structure, click "Apply." The image should now show up! 
 
 ### Multiple Sequence Alignment and Phylogenetic Tree Viewing:
 
