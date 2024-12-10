@@ -47,9 +47,13 @@ As reference, the following RefSeq IDs correspond to the following influenza str
 
 
 ### Protein Viewing:
+
 **Installation:** 
+
 In order to view the protein sequences associated with influenza, please download the Protein3d plugin from the plugin store. 
+
 **Launching the Protein View:** 
+
 Launch a protein viewing panel _at the start of your session_ (it will not appear as an option to add if you add another view first). Once you have the Protein View window open, click on the toggle controls option (the button with the wrench) on the right. Enter the following IDs to view any of the following proteins, with "PDB" as the source:
 
 | Gene   | Protein                   | PDB ID                                                                 |
