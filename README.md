@@ -170,3 +170,9 @@ Note that the 2009 cluster is almost at the bottom right corner where there's a 
 <a href="https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html">https://mafft.cbrc.jp/alignment/server/spool/_phyloio.241206193929469.html</a>
 
 This Newick tree file, which can also be found in our data folder, can be uploaded onto MsaView on JBrowse. 
+
+
+### Linear Genome View of the Homo sapiens genome with GWAS data: 
+The GWAS data in our browser can be found in this compressed file in our repo: `data\filtered_influenzaGWAS.bed.gz`. This .bed file was curated manually by our group, using data from this GWAS study: <a href="https://www.ebi.ac.uk/gwas/studies/GCST003123">https://www.ebi.ac.uk/gwas/studies/GCST003123</a>. All of the commands to process the file and install it to the borowser can be found in...
+- `install_scripts/process_data.sh` to unzip the compressed file
+- `install_scripts/add_to_jbrowse.sh` to add the .bed file as a track to the hg38 assembly
