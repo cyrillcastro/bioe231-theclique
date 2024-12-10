@@ -84,7 +84,7 @@ To examine how the hemagglutinin gene has changed over time, we obtained hemaggl
 3) Perform multiple sequence alignment on the ordered sequences using MAFFT (aligned_HA_protein_sequences.fa). 
 4) Build a phylogenetic tree on the MAFFT website (HA_protein_1918-2012_phylotree.nh.gz - we compressed it for quicker submission)
 
-**How to View The Data on Jbrowse**
+**How to View The Data on JBrowse:**
 
 In order to view the provided multiple sequence alignment file (aligned_HA_protein_sequences.fa), please download the MsaView plugin from the plugin store. Afterwards, launch a multiple sequence alignment viewing panel, then upload the file (aligned_HA_protein_sequences.fa, which should be in the data folder) under "MSA file or URL" after choosing the file upload option (Details on how this file was generated is included below).
 
