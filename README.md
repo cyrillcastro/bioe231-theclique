@@ -73,6 +73,8 @@ Launch a protein viewing panel _at the start of your session_ (it will not appea
 
 Once the assembly has loaded, this should bring you to the State Tree tab. Under the PDB ID you just entered, select the "Assembly 1" tab > "Apply Action" dropdown > "3D Representation." Feel free to customize your visualization as you like, or leave as is with the default 3D configuration. Finally, to view the protein structure, click "Apply." The image should now show up! 
 
+With ProteinView, you can only add one of these view windows to your session, but you can add multiple structures into the same window.
+
 ### Multiple Sequence Alignment and Phylogenetic Tree Viewing:
 
 To examine how the hemagglutinin gene has changed over time, we obtained hemagglutinin's protein sequences from 1918-2012 from <a href="https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database/">NCBI's Influenza Virus Resource</a>. We chose this timeline to include the pandemics. 
