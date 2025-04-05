@@ -1,4 +1,4 @@
-# bioe231-theclique
+# Influenzavirus Genome Browser
 BioE 231 The Clique Final Project
 
 ### Working Example of the JBrowse Genome Browser:
